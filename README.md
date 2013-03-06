@@ -2,21 +2,21 @@
 
 ## Simple Scripts
 
-    ./prep.sh
+    ./scripts/prep.sh
     + bundle install --path vendor/bundle
     + bundle exec berks install --path cookbooks
 
-    ./cut.sh HOSTNAME
+    ./scripts/cut.sh HOSTNAME
     + bundle exec knife solo bootstrap HOSTNAME
 
-    ./wash.sh [HOSTNAME]
+    ./scripts/wash.sh [HOSTNAME]
     # with HOSTNAME
     + bundle install
     + bundle exec knife solo clean HOSTNAME
 
     # with or without HOSTNAME
     + rm -rf ~/.berkshelf
-    + rm -rf ./cookbooks
+    + rm -rf ./cookbooks/*
 
 ### Install gems
 

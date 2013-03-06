@@ -5,5 +5,5 @@ if ! test "$1"; then
   exit 1
 fi
 echo "Cutting:"
-set -uex
+set -x
 bundle exec knife solo bootstrap $1
