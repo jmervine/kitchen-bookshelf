@@ -6,6 +6,4 @@ if ! test "$1"; then
 fi
 echo "Cutting:"
 set -uex
-bundle install --path vendor/bundle
-bundle exec berks install --path cookbooks
 bundle exec knife solo bootstrap $1

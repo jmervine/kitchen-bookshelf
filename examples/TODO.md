@@ -1,0 +1,4 @@
+* nginx
+* ruby
+* redis
+* mongodb

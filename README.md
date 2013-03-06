@@ -2,9 +2,11 @@
 
 ## Simple Scripts
 
-    ./cut.sh HOSTNAME
+    ./prep.sh
     + bundle install --path vendor/bundle
     + bundle exec berks install --path cookbooks
+
+    ./cut.sh HOSTNAME
     + bundle exec knife solo bootstrap HOSTNAME
 
     ./wash.sh [HOSTNAME]
