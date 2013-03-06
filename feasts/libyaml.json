@@ -1,0 +1,11 @@
+/**********************************************************
+ * Usage:
+ *
+ *  knife solo cook HOSTNAME -j ./feasts/libyaml.json
+ *
+ **********************************************************/
+{
+  "build_essential": { },
+  "run_list":[ "recipe[libyaml::source]" ]
+}
+/* vim: filetype=javascript */

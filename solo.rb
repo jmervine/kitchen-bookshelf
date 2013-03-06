@@ -10,5 +10,5 @@ cookbook_path               [ File.expand_path("chef-site-cookbooks", root),
 role_path                   File.expand_path("chef-roles", root)
 
 # uncomment for more logging
-#log_level :info
-#log_location STDOUT
+log_level :info
+log_location STDOUT

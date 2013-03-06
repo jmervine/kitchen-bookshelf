@@ -1,0 +1,24 @@
+/**********************************************************
+ * Usage:
+ *
+ *  knife solo cook HOSTNAME -j ./feasts/ruby.json
+ *
+ **********************************************************
+ Ruby defailts are fine, but here are the options
+ "ruby": {
+     "ruby_version":     "1.9.3-p392",
+     "rubygems_version": "1.8.24",
+     "source_location":  "http://ftp.ruby-lang.org/pub/ruby/1.9",
+     "source_cache_dir": "/usr/local/src",
+     "destination_dir":  "/usr/local/bin"
+ } */
+{
+  "build_essential": { },
+  "run_list":[
+    "recipe[httperf]",
+    "recipe[libyaml::source]",
+    "recipe[ruby::source]"
+  ]
+}
+/* vim: filetype=javascript */
+
