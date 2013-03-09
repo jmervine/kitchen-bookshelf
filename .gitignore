@@ -12,3 +12,5 @@ Gemfile.lock
 nodes/*.json
 .bundle
 private*
+tmp/*
+site-cookbooks/*

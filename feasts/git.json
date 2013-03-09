@@ -1,0 +1,11 @@
+/**********************************************************
+ * Usage:
+ *
+ *  knife solo cook HOSTNAME -j ./feasts/ruby.json
+ *
+ **********************************************************/
+{
+  "build_essential": { },
+  "run_list":[ "recipe[git]" ]
+}
+/* vim: filetype=javascript */
