@@ -9,5 +9,4 @@ else
   set -x
 fi
 
-rm -rf ~/.berkshelf
 rm -rf ./cookbooks/*
