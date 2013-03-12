@@ -1,0 +1,11 @@
+/**********************************************************
+ * Usage:
+ *
+ *  knife solo cook HOSTNAME -j ./feasts/ruby.json
+ *
+ **********************************************************/
+{
+  "nginx": { "install_method": "source" },
+  "run_list":[ "recipe[nginx]" ]
+}
+/* vim: filetype=javascript */

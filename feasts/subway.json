@@ -1,0 +1,17 @@
+/**********************************************************
+ * Usage:
+ *
+ *  knife solo cook HOSTNAME -j ./feasts/ruby.json
+ *
+ **********************************************************/
+{
+  "nginx": {
+    "proxy": {
+      "location": {
+        "proxy_pass": "http://0.0.0.0:3000"
+      }
+    }
+  },
+  "run_list":[ "recipe[subway]" ]
+}
+/* vim: filetype=javascript */
