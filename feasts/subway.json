@@ -6,14 +6,16 @@
  **********************************************************/
 {
   "nginx": {
+    "app_name": "subway",
     "proxy": {
       "location": {
-        "proxy_pass": "http://0.0.0.0:3000"
+        "proxy_pass": "http://0.0.0.0:3000",
+        "root": "/home/jmervine/subway/assets"
       }
     }
   },
-  // recipes found at http://github.com/rubyops/cookbook-ruby
   "subway": { "user": "jmervine" },
+  // recipes found at http://github.com/rubyops/cookbook-ruby
   "run_list":[ "recipe[subway]" ]
 }
 /* vim: filetype=javascript */
