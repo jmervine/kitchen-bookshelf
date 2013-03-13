@@ -6,6 +6,7 @@
  **********************************************************/
 {
   "build_essential": { },
+  // recipes found at http://github.com/rubyops/cookbook-httperf
   "run_list":[ "recipe[httperf]" ]
 }
 /* vim: filetype=javascript */

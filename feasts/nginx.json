@@ -6,6 +6,6 @@
  **********************************************************/
 {
   "nginx": { "install_method": "source" },
-  "run_list":[ "recipe[nginx]" ]
+  "run_list":[ "recipe[nginx]" ] // opscode recipe
 }
 /* vim: filetype=javascript */

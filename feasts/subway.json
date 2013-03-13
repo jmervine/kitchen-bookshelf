@@ -12,6 +12,7 @@
       }
     }
   },
+  // recipes found at http://github.com/rubyops/cookbook-ruby
   "subway": { "user": "jmervine" },
   "run_list":[ "recipe[subway]" ]
 }

@@ -15,6 +15,7 @@
 {
   "build_essential": { },
   "run_list":[
+    // all recipes found at http://github.com/rubyops/cookbook-COOKBOOK_NAME
     "recipe[httperf]",
     "recipe[libyaml::source]",
     "recipe[ruby::source]"

@@ -6,6 +6,7 @@
  **********************************************************/
 {
   "build_essential": { },
+  // recipes found at http://github.com/rubyops/cookbook-redis
   "run_list":[ "recipe[redis]" ]
 }
 /* vim: filetype=javascript */

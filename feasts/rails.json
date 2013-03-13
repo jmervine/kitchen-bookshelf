@@ -25,10 +25,10 @@
     }
   },
   "run_list":[
-    "recipe[nodejs]",
-    "recipe[git]",
-    "recipe[nginx_proxy]",
-    "recipe[ruby::source]"
+    "recipe[nodejs]",      // opscode
+    "recipe[git]",         // opscode
+    "recipe[nginx_proxy]", // https://github.com/rubyops/cookbook-nginx_proxy
+    "recipe[ruby::source]" // https://github.com/rubyops/cookbook-ruby
   ]
 }
 /* vim: filetype=javascript */

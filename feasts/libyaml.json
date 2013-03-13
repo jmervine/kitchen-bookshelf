@@ -6,6 +6,7 @@
  **********************************************************/
 {
   "build_essential": { },
+  // recipes found at http://github.com/rubyops/cookbook-libyaml
   "run_list":[ "recipe[libyaml::source]" ]
 }
 /* vim: filetype=javascript */

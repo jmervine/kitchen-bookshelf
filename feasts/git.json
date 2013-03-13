@@ -6,6 +6,6 @@
  **********************************************************/
 {
   "build_essential": { },
-  "run_list":[ "recipe[git]" ]
+  "run_list":[ "recipe[git]" ] // opscode
 }
 /* vim: filetype=javascript */

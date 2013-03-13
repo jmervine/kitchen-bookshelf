@@ -14,6 +14,7 @@
  } */
 {
   "build_essential": { },
+  // recipes found at http://github.com/rubyops/cookbook-ruby
   "run_list":[ "recipe[ruby::source]" ]
 }
 /* vim: filetype=javascript */
