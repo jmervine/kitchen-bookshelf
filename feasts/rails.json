@@ -15,11 +15,19 @@
 {
   "build_essential": { },
   "nodejs": { "install_method": "source" },
-  "nginx": { "install_method": "source" },
+  "nginx": {
+    // "app_name": "CHANGE_ME",
+    "proxy": {
+      "location": {
+        "proxy_pass": "http://0.0.0.0:9000" //,
+        //"root": "CHANGE_ME"
+      }
+    }
+  },
   "run_list":[
     "recipe[nodejs]",
     "recipe[git]",
-    "recipe[nginx]",
+    "recipe[nginx_proxy]",
     "recipe[ruby::source]"
   ]
 }

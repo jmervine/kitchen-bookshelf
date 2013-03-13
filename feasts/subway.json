@@ -12,6 +12,7 @@
       }
     }
   },
+  "subway": { "user": "jmervine" },
   "run_list":[ "recipe[subway]" ]
 }
 /* vim: filetype=javascript */
