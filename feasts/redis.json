@@ -7,6 +7,7 @@
 {
   "build_essential": { },
   // recipes found at http://github.com/rubyops/cookbook-redis
-  "run_list":[ "recipe[redis]" ]
+  "redis": { "version": "2.6.11" },
+  "run_list":[ "recipe[redis::install_from_release]" ]
 }
 /* vim: filetype=javascript */
