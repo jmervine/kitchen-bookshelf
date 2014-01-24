@@ -27,7 +27,7 @@
   "run_list":[
     "recipe[nodejs]",      // opscode
     "recipe[git]",         // opscode
-    "recipe[nginx_proxy]", // https://github.com/rubyops/cookbook-nginx_proxy
+    //"recipe[nginx_proxy]", // https://github.com/rubyops/cookbook-nginx_proxy
     "recipe[ruby::source]" // https://github.com/rubyops/cookbook-ruby
   ]
 }

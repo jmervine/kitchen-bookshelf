@@ -6,6 +6,7 @@
  **********************************************************/
 {
   "build_essential": { },
+  "git": { "version": "1.7.9.4" },
   "run_list":[ "recipe[git]" ] // opscode
 }
 /* vim: filetype=javascript */

@@ -6,6 +6,10 @@
  **********************************************************/
 {
   "build_essential": { },
+  "httperf": {
+    "cache_dir": "/usr/local/src/httperf"
+  },
+  "git": { "version": "1.7.9.4" },
   // recipes found at http://github.com/rubyops/cookbook-httperf
   "run_list":[ "recipe[httperf]" ]
 }

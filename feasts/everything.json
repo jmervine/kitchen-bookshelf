@@ -14,6 +14,9 @@
  } */
 {
   "build_essential": { },
+  "httperf": {
+    "cache_dir": "/usr/local/src/httperf"
+  },
   "run_list":[
     // all recipes found at http://github.com/rubyops/cookbook-COOKBOOK_NAME
     "recipe[httperf]",
